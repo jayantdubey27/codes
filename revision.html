@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>How to create a HTML page</title>
+    </head>
+    <body>
+        <!--This is how we add comment-->
+        <h3>How to write a paragraph</h3>
+        <hr> <!--this tag is used to draw the line-->
+        <p>Paragraphs can be written under this tag. 
+        <br>tag is used to break the line.<br>
+        <b>this tag is used for bold</b><br>
+        <strong>it also does the same work as b tag but text under this tag also has strong importance in the paragraph.</strong><br>
+        <i>This tag is used for italic.</i><br>
+        <em>This is also used for italic. the difference between these two is same as b and strong tags</em><br>
+        <small>Text under this tag is uaually smaller than other texts of the paragraph</small><br>
+        <mark>Text under this tag gets highlighted</mark><br>
+        <del>Text under this tag has been deleted from the paragraph</del><br>
+        <ins>Text under this tag has been newly added to the paragraph</ins><br><br>
+        These tags are useful for mathematical formulae.<br>
+        X<sub>2</sub><br><!--used for subscript-->
+        Y<sup>2</sup><!--used for exponent-->
+        </p>
+        <pre>
+            This tag is used for writting pre formatted text which means the text under this tag 
+            will appear same as written in the code.
+            For ex. This    text will
+                    Appear as it is
+        </pre>
+        <q>This tag is used to write our own quotation</q>
+        <blockquote cite="google .com">This tag is used to write the quotation of of any author</blockquote>
+        <!--The differernce between these 2 tags can be seen in the output-->
+        <!--cite is used to show the site name from where the quote has been taken-->
+        <P>Following tag is used for abbreviation , for example</P>
+        <abbr title="United Nations Organisation">UNO</abbr><br>
+        <!--title is used to write its full form effects are vivible in the output-->
+        <P>Following tag is used to write address</P>
+        <address>Gorahpur U.P 273001</address>
+        <p>Following tag is used to write title </p>
+        <cite>Harry Potter</cite> is written by JK Rowling<br>
+        <h4><u>Links in HTML:</u></h4>
+        <a href="https://www.instagram.com/" target="blank" title="go to instagram">Link for instagram</a><br>
+        <!--<a> tag is used to create link-->
+        <!--href is used to write the link -->
+        <!--target is used to open another page, if we do not write target then it will not open the new page instead it will refresh the same page-->
+        <!--title gives the hint abot the link-->
+        <p>Local links are also there which we will see later<br>
+        Now we will see how to create E mail links:<br>
+        Contact us at<a href="mailto:jayantdubey27@gmail.com?subject=How's you">jayantdubey27@gmail.com</a></p>
+        <!--inside href, mailto is used to proide our emil id and using subject automatically fills the subject also-->
+        <p>Following tag is used to add image </p>
+        <img src="C:\Users\Jayant dubay\OneDrive\Pictures\Planet9\Planet9_3840x2160.jpg" alt="planet" width="500" height="300">
+        <!--src is used to define the path of image-->
+        <!--alt is used to show the alternative text at the place of image incase if image doesn't loads-->
+        <!--height and width is defined in pixels-->
+        <p>Following tag is used for moving text or image but it is not used in HTML 5</p>
+        <marquee direction="right">This is a moving text</marquee>
+        <hr>
+        <h2><u>Lists in HTML:</u></h2>
+        <h4><u>Ordered list:</u></h4>
+        <ol type="A">
+            <li>Milk
+                <ol type="a">
+                    <li>Cow milk</li>
+                    <li>Buffalo milk</li>
+                </ol>
+            </li>
+            <li>Tea
+                <ol type="a">
+                    <li>Black tea</li>
+                    <li>Lemon tea</li>
+                </ol>
+            </li>
+            <li>Coffee
+                <ol type="a">
+                    <li>Black coffee</li>
+                    <li>Expresso</li>
+                </ol>
+            </li>
+        </ol>
+        <!--this is how we creat ordered list(which usese numbering), type is used for choosing the numbering style  -->
+        <h4><u>Unordered list:</u></h4>
+        <ul>
+            <li>Milk
+                <ul>
+                    <li>Cow milk</li>
+                    <li>Buffalo milk</li>
+                </ul>
+            </li>
+            <li>Tea
+                <ul>
+                    <li>Black tea</li>
+                    <li>Lemon tea</li>
+                </ul>
+            </li>
+            <li>Coffee
+                <ul>
+                    <li>Black coffee</li>
+                    <li>Expresso</li>
+                </ul>
+            </li>
+        </ul>
+        <!--this is how we create unordered list(which uses bullets)-->
+        <h4><u>Description list</u></h4>
+        <dl>
+            <dt>Ordered list
+                <dd>-In this list all the items are arranged according to their order i.e. according to number</dd>
+            </dt>
+            <dt>Unordered list
+                <dd>-In this list all the items are arranged according to bullets i.e. they are unordered</dd>
+            </dt>
+            <dt>Description list
+                <dd>-This list provides thes Description of all the items present in it</dd>
+            </dt>
+        </dl>
+        <hr>
+        <h2><u>Table in HTML:</u></h2>
+        <table border="4">
+            <tr>
+                <th>Row1</th>
+                <td>data 1</td>
+                <td><img src="C:\Users\Jayant dubay\OneDrive\Pictures\Planet9\Planet9_3840x2160.jpg" height="25" width="60"></td>
+                <td>data 3</td>
+            </tr>
+            <tr>
+                <th>Row2</th>
+                <td>data 4</td>
+                <td><a href="https://www.instagram.com/" target="blank">Instagram</a></td>
+                <td>data 6</td>
+            </tr>
+            <tr>
+                <th>Row3</th>
+                <td>data 7</td>
+                <td>data 8</td>
+                <td>data 9</td>
+            </tr>
+
+        </table>
+        <p>
+            Here is the link for tables page
+            <a href="file:///E:/Codes/HTML%20codes/tables.html" target="blank">Tables</a><br>
+        </p>
+        <hr>
+        <pre>Here we will see about div and span tag:
+            Div tag occupies complete space and the new text will start from new line meanwhile,
+            in span tag new tag will start from the same line and it will occupie only occupie the
+            space as much is occupied by the text.
+            We will learn more about it in CSS.
+            Example:
+        </pre>
+        <div>This is div tag</div>
+        <div>This new text will start from a new line</div>
+        <span>this is span tag</span>
+        <span>this new text will not start from new line</span>
+        <p>Following tag is used to show another web page into our page</p>
+        <iframe src="https://zeenews.india.com/" height="500" width="500"></iframe>
+        <iframe src="https://www.news18.com/" height="500" width="500"></iframe>
+        <p>Following tag is used for adding audio file in our web page</p>
+        <audio controls>
+            <source src="C:\Users\Jayant dubay\OneDrive\Documents\Sound recordings"type="audio/mpeg 4">
+            This format is not supported by the browser
+        </audio>
+        <p>Following tag is used for adding audio file in our web page</p>
+        <video controls>
+            <source src="sksksk" type="dkmck">
+        </video> 
+        <p>Following three tags are used to add pdf files to our webpage<br>
+            (I): embed tag<br>  
+            (II): iframe tag<br>
+            (III): object tag<br>
+        </p>
+        <embed src="E:\Codes\Codes resources\NAS sem3.pdf" type="application/pdf" height="500" width="500">
+        <iframe src="E:\Codes\Codes resources\NAS sem3.pdf" height="500" width="500"></iframe>
+        <object data="E:\Codes\Codes resources\NAS sem3.pdf" height="500" width="500" type="application/pdf"></object>
+        <hr>
+        <!--Above three tags are used used for adding pdfs-->
+        <p>How to add a youtube video to our page:</p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/Cz44CQOb6zM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <p>How to add google maps on our page:</p>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3784.612715142578!2d73.84824121484176!3d18.45588528744673!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2eac91c55555b%3A0xe5d0fef8ca152cda!2sPriyal%20Vihar%20Boys%20Hostel!5e0!3m2!1sen!2sin!4v1650762819222!5m2!1sen!2sin" width="500" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <P>HTML entities are used for writing the resereved words, they are also used for writing symbols and emojis.</P>
+        <p>There are symentic and non symentic elements in html:
+           <dl>
+               <dt>Symentic elements
+                   <dd>These are the elements which shows their work by their name OR the tell thier work to the user and the browser. <i>ex</i> <article>article tag</article></dd>
+
+               </dt>
+               <dt>Non symentic elements
+                   <dd>These tags do not tell their work by their names <i>ex</i> div tag.</dd>
+
+               </dt>
+           </dl> 
+        </p>
+
+
+    </body>
+</html>
